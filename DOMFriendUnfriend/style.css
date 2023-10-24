@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+
+}
+html,body{
+    width: 100%;
+    height:100%;
+    
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:cornflowerblue;
+    background-image: url(https://img.freepik.com/free-vector/watercolor-background-international-friendship-day-celebration_23-2150518691.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1697587200&semt=ais);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
+  
+}
+
+#card{
+    height: 400px;
+    width:300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm309-aew-013_1_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=2724bd9481a065ee24e7e7eaaabf1c55);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ 
+    
+}
+
+#card img{
+    height:70%;
+    width:80%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    transition: 1s all ease-in-out;
+    
+
+}
+#card img:hover{
+    transform: scale(1.1);
+
+}
+
+#card h1{
+    color: #fff;
+    font-size: 25px;
+    margin:10px 0px;
+}
+#card h5{
+    font-size: 25px;
+    color:red;
+    margin: 10px;
+}
+.btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.add {
+    background-color: cadetblue;
+    color: #fff;
+    border-radius:10px;
+    padding: 6px;
+    cursor: pointer;
+    transition: 1s all ease-in-out;
+}
+
+.remove{
+    background-color:crimson;
+    color:#fff;
+    cursor: pointer;
+    border-radius:10px;
+    padding: 6px;
+    transition: 1s all ease-in-out;
+}
+.remove:hover{
+    transform:scale(1.1)
+}
